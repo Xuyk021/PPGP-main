@@ -1,0 +1,51 @@
+/src/link-to-react-src/
+.DS_Store
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+**/*.log
+
+tests/**/coverage/
+tests/e2e/reports
+selenium-debug.log
+
+# Editor directories and files
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.local
+package-lock.json
+yarn.lock
+syncSrc.sh
+
+dist/
+lib/
+doc-site/
+relation-graph/
+relation-graph
+demo-files
+demo-files/
+
+# Python bytecode and cache files
+*.py[cod]
+__pycache__/
+
+# Virtual environment directories
+venv/
+ENV/
+env/
+
+# Python egg metadata
+*.egg-info/
+.eggs/
+
+# Environment variables file (if you store secrets locally)
+.env
+
+# Build artifacts (if not already covered)
+build/
+
